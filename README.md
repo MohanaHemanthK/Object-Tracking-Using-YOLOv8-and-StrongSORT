@@ -8,6 +8,6 @@ This repository contains a Python script for real-time object tracking using the
 
 TO install YOLO : ```pip install ultralytics```
 
-Make sure that you fulfill all the requirements: Python 3.8 or later with all requirements.txt dependencies installed, including torch>=1.7. To install, run: ```pip install -r requirements.txt```
+Make sure that you fulfill all the requirements: Python 3.8 or later with all [requirements.txt]() dependencies installed, including torch>=1.7. To install, run: ```pip install -r requirements.txt```
 
-I have downloaded the strongSORT algorithm from here: https://github.com/mikel-brostrom/Yolov7_StrongSORT_OSNet/tree/main/strong_sort and modified according to my use case.
+I have downloaded the strongSORT algorithm from here: [strongSORT](https://github.com/mikel-brostrom/Yolov7_StrongSORT_OSNet/tree/main/strong_sort) and modified according to my use case.
