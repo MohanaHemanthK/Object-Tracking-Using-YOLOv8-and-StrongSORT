@@ -1,0 +1,17 @@
+https://github.com/KaiyangZhou/deep-person-reid/blob/master/torchreid/models/osnet.py - osnet_x0_25
+
+https://github.com/mikel-brostrom/Yolov7_StrongSORT_OSNet/tree/main/strong_sort - strongSORT algorithm from here
+
+https://www.youtube.com/watch?v=PjJu1HV8E4E&ab_channel=CodeWithAarohi - videoReference
+
+#to get osnet_x0_25_msmt17.pt
+import gdown
+
+#find your model_url in path:`Yolov5_StrongSORT_OSNet/strong_sort/deep/reid_model_factory.py`
+model_url = "https://drive.google.com/uc?id=1sSwXSUlj4_tHZequ_iZ8w_Jh0VaRQMqF"  
+weights = "./osnet_x0_25_msmt17.pt"  ##The suffix of the file name is pt
+
+gdown.download(model_url, str(weights), quiet=False)
+
+
+ReID model Zoo - https://kaiyangzhou.github.io/deep-person-reid/MODEL_ZOO
